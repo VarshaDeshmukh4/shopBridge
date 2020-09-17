@@ -1,0 +1,35 @@
+<div class="container-fluid">
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button type="button" class="btn btn-success ml-auto" (click)="addInventoryItem()">Add Inventory</button>
+  </nav>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let product of products; let i =index;">
+            <td scope="row">{{i +1}}</td>
+            <td scope="row">{{product.name}}</td>
+            <td scope="row">$ {{product.price}}</td>
+            <td>
+              <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top"
+                title="View Product" (click)="viewProduct(product.id)"><i class="fa fa-eye"></i></button><span></span>
+              <button type="button" class="btn btn-danger margin-left" data-toggle="tooltip" data-placement="top"
+                title="Delete Product" (click)="deleteProduct(product.id)"><i class="fa fa-trash"></i></button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

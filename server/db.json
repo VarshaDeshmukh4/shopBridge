@@ -1,0 +1,28 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "Club Factory New Kurta Krep Kat: Buy Ethnic Wear Online at Best Price",
+      "description": "GOOD QUALITY FABRIC AND HAND WASHABLEGOOD QUALITY FABRIC AND HAND WASHABLE",
+      "price": 5000
+    },
+    {
+      "id": 2,
+      "name": "Selling Kurti Designs and Style Tips for 2020 ",
+      "description": "GOOD QUALITY FABRIC AND HAND WASHABLEGOOD QUALITY FABRIC AND HAND WASHABLE",
+      "price": 2000
+    },
+    {
+      "id": 3,
+      "name": "GEETANJALI SAREES PRINTED ",
+      "description": "GOOD QUALITY FABRIC AND HAND WASHABLEGOOD QUALITY FABRIC AND HAND WASHABLE",
+      "price": 3000
+    },
+    {
+      "name": "GEETANJALI SAREES PRINTED",
+      "description": "GOOD QUALITY FABRIC AND HAND WASHABLEGOOD QUALITY FABRIC AND HAND WASHABLE",
+      "price": "4566",
+      "id": 4
+    }
+  ]
+}
